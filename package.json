@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/cdmt/react-merg.git",
   "author": "chris.dickinson <chris.dickinson@autotrader.co.uk>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon server"
+  }
 }
