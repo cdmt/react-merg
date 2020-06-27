@@ -1,0 +1,8 @@
+{
+  "name": "react-merg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cdmt/react-merg.git",
+  "author": "chris.dickinson <chris.dickinson@autotrader.co.uk>",
+  "license": "MIT"
+}
