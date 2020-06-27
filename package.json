@@ -7,5 +7,12 @@
   "license": "MIT",
   "scripts": {
     "server": "nodemon server"
+  },
+  "dependencies": {
+    "apollo-server": "^2.15.0",
+    "concurrently": "^5.2.0",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.20",
+    "nodemon": "^2.0.4"
   }
 }

@@ -12,4 +12,4 @@ const fontSchema = new Schema({
     }
 })
 
-module.exports = mongoose.mode('Font', fontSchema)
+module.exports = mongoose.model('Font', fontSchema)
