@@ -13,8 +13,7 @@
   "scripts": {
     "server": "nodemon server",
     "client": "cd client && yarn start",
-    "dev": "concurrently \"yarn server\" \"yarn client\" ",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false yarn add --prefix client && yarn build --prefix client"
+    "dev": "concurrently \"yarn server\" \"yarn client\" "
   },
   "dependencies": {
     "@types/react-router-dom": "^5.1.5",
