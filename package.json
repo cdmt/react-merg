@@ -6,13 +6,18 @@
   "author": "chris.dickinson <chris.dickinson@autotrader.co.uk>",
   "license": "MIT",
   "scripts": {
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "client": "cd client && yarn start",
+    "dev": "concurrently \"yarn server\" \"yarn client\" "
   },
   "dependencies": {
+    "@types/react-router-dom": "^5.1.5",
+    "@types/styled-components": "^5.1.0",
     "apollo-server": "^2.15.0",
     "concurrently": "^5.2.0",
     "dotenv": "^8.2.0",
     "mongoose": "^5.9.20",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "styled-components": "^5.1.1"
   }
 }
