@@ -11,8 +11,8 @@ import {ApolloProvider as ApolloProviderHooks} from 'react-apollo-hooks'
 
 const cache = new InMemoryCache()
 const link = new HttpLink({
-  //uri:'http://localhost:4000'
-  uri:'https://react-merg.herokuapp.com/'
+  uri:'http://localhost:4000'
+  //uri:'https://react-merg.herokuapp.com/'
 })
 
 const client = new ApolloClient({
