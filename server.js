@@ -7,7 +7,7 @@ const {resolvers} = require('./resolvers');
 
 const Font = require('./models/Font');
 
-const PORT = process.env.port || 4000
+const PORT = process.env.PORT || 4000
 
 const server = new ApolloServer({
     typeDefs,
