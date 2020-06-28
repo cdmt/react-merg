@@ -1,6 +1,12 @@
 {
   "name": "react-merg",
   "version": "1.0.0",
+  "engines":{
+    "node": "10.17.0",
+    "npm": "6.11.3",
+    "yarn": "1.21.1",
+    "typescript": "3.7.2"
+  },
   "main": "index.js",
   "repository": "https://github.com/cdmt/react-merg.git",
   "author": "chris.dickinson <chris.dickinson@autotrader.co.uk>",
@@ -8,7 +14,8 @@
   "scripts": {
     "server": "nodemon server",
     "client": "cd client && yarn start",
-    "dev": "concurrently \"yarn server\" \"yarn client\" "
+    "dev": "concurrently \"yarn server\" \"yarn client\" ",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false yarn add --prefix client && yarn build --prefix client"
   },
   "dependencies": {
     "@types/react-router-dom": "^5.1.5",
