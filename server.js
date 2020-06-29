@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 4000
 const server = new ApolloServer({
     typeDefs,
     resolvers,
-    playground: process.env.NODE_ENV !== "production",
+    playground: true,
     context:{
         Font
     }
