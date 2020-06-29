@@ -12,8 +12,8 @@ import {ApolloProvider as ApolloProviderHooks} from 'react-apollo-hooks'
 const cache = new InMemoryCache()
 const link = new HttpLink({
   // uri:'http://localhost:4000/graphql'
-  //uri:'https://react-merg.herokuapp.com/graphql'
-  uri:'/graphql'
+  uri:'https://react-merg.herokuapp.com/graphql'
+  //uri:'/graphql'
 })
 
 const client = new ApolloClient({
