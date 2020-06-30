@@ -13,7 +13,6 @@ const cache = new InMemoryCache()
 const link = new HttpLink({
   //uri:'http://localhost:4000/graphql'
   uri:'https://infinite-badlands-93099.herokuapp.com/graphql'
-  //uri:'/graphql'
 })
 
 const client = new ApolloClient({
